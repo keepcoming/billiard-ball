@@ -1,0 +1,26 @@
+/**app.wxss**/
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss'; 
+.container{
+  background-color: #F8F8F8;
+  min-height: 100vh;
+  padding:0 !important;
+  margin: 0 !important;
+  width: 100%;
+  font-size: 14px;
+  height: 100%;
+  font-family: PingFang SC, PingFang SC-Regular;
+}
+.view-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-card{
+  margin: 20rpx 30rpx;
+  width: 638rpx;
+  height: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24rpx;
+}
+

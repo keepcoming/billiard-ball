@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/home/userInfo/index",
+    "pages/home/home/index",
+    "pages/home/detail/index",
+    "pages/home/join/index",
+    "pages/home/joinDetail/index",
+    "pages/home/valueCard/index",
+    "pages/list/index",
+    "pages/center/wallet/index",
+    "pages/center/help/index",
+    "pages/center/order/index",
+    "pages/center/coupon/index",
+    "pages/center/login/index",
+    "pages/center/light/index",
+    "pages/center/my/index",
+    "pages/center/panel/index",
+    "pages/center/panelchart/index",
+    "pages/center/manage/index",
+    "pages/center/orderlist/index",
+    "pages/center/teachAssistant/index",
+    "pages/home/passwordPay/passwordPay",
+    "pages/shareOrder/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "逸闲共享空间"
+  },
+  "tabBar": {
+    "selectedColor": "#0F7A95",
+    "color": "#6E7480",
+    "list": [
+      {
+        "pagePath": "pages/home/home/index",
+        "iconPath": "/assets/img/home/home.png",
+        "selectedIconPath": "/assets/img/home/home_click.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "iconPath": "/assets/img/home/list.png",
+        "selectedIconPath": "/assets/img/home/list_click.png",
+        "text": "当前订单"
+      },
+      {
+        "pagePath": "pages/center/my/index",
+        "iconPath": "/assets/img/home/center.png",
+        "selectedIconPath": "/assets/img/home/center_click.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 100000,
+    "downloadFile": 100000
+  },
+  "debug": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ]
+}
